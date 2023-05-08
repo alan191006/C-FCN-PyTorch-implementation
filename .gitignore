@@ -4,3 +4,5 @@ evaluation.py
 o_cfmatrix.txt
 o_evaluation.txt
 __pycache__/cfmatrix.cpython-39.pyc
+
+models/*.pth
