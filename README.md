@@ -24,10 +24,17 @@ To use this implementation, simply create an instance of the `C_FCN` class with 
 - `last_layer` specifies the type of final layer to use: `"BI"` for bilinear upscaling, `"TC"` for transpose convolution, or `"DT"` for double transpose convolution
 - `skipped_connection` is a boolean indicating whether to use a skipped connection in the network.
 
+## Future Feature
+
+- Dedicated training script
+- Library-like
+- Publish test results + weights 
+- Implement Depth-wise separable convolutional layer.
+
 ## License
 
 This implementation is licensed under the MIT License.
 
 ## Acknowledgements
 
-This implementation is based on the original paper by Balh et al. (2019).
+This implementation is based on the original paper by Balh et al. ([2019](https://openaccess.thecvf.com/content_ICCVW_2019/papers/LPCV/Bahl_Low-Power_Neural_Networks_for_Semantic_Segmentation_of_Satellite_Images_ICCVW_2019_paper.pdf)).
